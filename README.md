@@ -1,4 +1,5 @@
 # PodcastApp
 
 # Sign Up Page
-<img width="440" alt="Screenshot 2022-12-19 at 21 14 32" src="https://user-images.githubusercontent.com/119730946/208445542-0754ea50-97fc-4d9d-a749-157f1972f8f0.png">
+
+<img width="451" alt="Screenshot 2022-12-19 at 22 37 25" src="https://user-images.githubusercontent.com/119730946/208463109-489a4215-72f0-4137-a4bd-c724bd8c85a4.png">
