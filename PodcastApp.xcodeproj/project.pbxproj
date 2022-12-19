@@ -14,6 +14,8 @@
 		486501D02950675200903422 /* PodcastApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 486501CE2950675200903422 /* PodcastApp.xcdatamodeld */; };
 		486501D22950675400903422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486501D12950675400903422 /* Assets.xcassets */; };
 		486501D52950675400903422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486501D32950675400903422 /* LaunchScreen.storyboard */; };
+		486501DF2950680A00903422 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486501DE2950680A00903422 /* Auth.storyboard */; };
+		486501E129506B7B00903422 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486501E029506B7B00903422 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		486501D12950675400903422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486501D42950675400903422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		486501D62950675400903422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486501DE2950680A00903422 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		486501E029506B7B00903422 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,42 @@
 		486501C42950675200903422 /* PodcastApp */ = {
 			isa = PBXGroup;
 			children = (
+				486501DC295067D200903422 /* Modules */,
 				486501C52950675200903422 /* AppDelegate.swift */,
 				486501C72950675200903422 /* SceneDelegate.swift */,
-				486501C92950675200903422 /* ViewController.swift */,
-				486501CB2950675200903422 /* Main.storyboard */,
 				486501D12950675400903422 /* Assets.xcassets */,
 				486501D32950675400903422 /* LaunchScreen.storyboard */,
 				486501D62950675400903422 /* Info.plist */,
 				486501CE2950675200903422 /* PodcastApp.xcdatamodeld */,
 			);
 			path = PodcastApp;
+			sourceTree = "<group>";
+		};
+		486501DC295067D200903422 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				486501E229506BE900903422 /* Main */,
+				486501DD295067E300903422 /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		486501DD295067E300903422 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				486501DE2950680A00903422 /* Auth.storyboard */,
+				486501E029506B7B00903422 /* LoginViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		486501E229506BE900903422 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				486501C92950675200903422 /* ViewController.swift */,
+				486501CB2950675200903422 /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486501DF2950680A00903422 /* Auth.storyboard in Resources */,
 				486501D52950675400903422 /* LaunchScreen.storyboard in Resources */,
 				486501D22950675400903422 /* Assets.xcassets in Resources */,
 				486501CD2950675200903422 /* Main.storyboard in Resources */,
@@ -144,6 +175,7 @@
 				486501CA2950675200903422 /* ViewController.swift in Sources */,
 				486501C62950675200903422 /* AppDelegate.swift in Sources */,
 				486501D02950675200903422 /* PodcastApp.xcdatamodeld in Sources */,
+				486501E129506B7B00903422 /* LoginViewController.swift in Sources */,
 				486501C82950675200903422 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
